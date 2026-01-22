@@ -1,0 +1,4 @@
+books/*.tgz
+*.glob
+.*.aux
+*.vo*

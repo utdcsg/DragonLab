@@ -1,0 +1,18 @@
+#!/bin/sh
+
+SWITCH="${1:-rocq}"
+
+if ! opam switch list --short 2>/dev/null | grep -qx "$SWITCH"; then
+  echo "error: opam switch '$SWITCH' does not exist" >&2
+  return 1 2>/dev/null || exit 1
+fi
+
+eval "$(opam env --switch="$SWITCH" --set-switch)"
+
+ACTIVE="$(opam switch show 2>/dev/null || true)"
+if [ "$ACTIVE" = "$SWITCH" ]; then
+  echo "Activated opam switch: $ACTIVE"
+else
+  echo "error: failed to activate opam switch '$SWITCH' (current: '$ACTIVE')" >&2
+  return 1 2>/dev/null || exit 1
+fi
