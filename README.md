@@ -7,8 +7,13 @@ Its curriculum is a selection of core concepts from the [Software Foundations](h
 
 ## Getting Started
 
-1. Install [Rocq](https://rocq-prover.org/). This repository assumes the user
-   1. Has set up Rocq via [opam](https://rocq-prover.org/docs/using-opam)
+1. Install [Rocq](https://rocq-prover.org/). If you install [opam](https://opam.ocaml.org/doc/Install.html), this can be done with
+   ```bash
+   make setup-env
+   source activate_switch
+   ```
+   This repository assumes the user
+   1. Has set up [Rocq via opam](https://rocq-prover.org/docs/using-opam)
    2. Is running in a Unix-like environment
    3. Is using either VSRocq or RocqIDE
    
