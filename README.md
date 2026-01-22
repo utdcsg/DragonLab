@@ -1,4 +1,4 @@
-# DragonLab Instructor Repository
+# DragonLab Student Repository
 
 ![logo.png](./media/logo.png)
 
