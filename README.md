@@ -42,4 +42,4 @@ Students should obtain working knowledge of the following upon completion of all
 4. The simply-typed lambda calculus and its derivatives
 5. The Verified Software Toolchain
 
-See [the syllabus](./syllabus/syllabus.pdf) for more details
+See [the syllabus](./syllabus/syllabus.pdf) for more details.
