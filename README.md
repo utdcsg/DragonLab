@@ -37,7 +37,7 @@ Students should obtain working knowledge of the following upon completion of all
 1. Basic syntax, data types, patterns, and proof strategies for the Rocq proof system
 2. The Curry-Howard Isomorphism as it relates to program verification
 3. Basic reasoning strategies for imperative programs, primarily
-    - Large- and small-step operation semantics
+    - Large- and small-step operational semantics
     - Hoare logic and Separation logic
 4. The simply-typed lambda calculus and its derivatives
 5. The Verified Software Toolchain
