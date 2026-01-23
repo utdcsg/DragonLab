@@ -20,7 +20,7 @@ Its curriculum is a selection of core concepts from the [Software Foundations](h
    These are not strict requirements, and we will help you work around them if you have e.g. a Windows setup, or if you prefer to follow the [book's recommendation to run Rocq in a Docker environment](https://softwarefoundations.cis.upenn.edu/lf-current/Preface.html#lab8).
 2. Clone this repo
     ```bash
-    git clone https://github.com/utdcsg/DragonLab-Student/ dragonlab
+    git clone https://github.com/utdcsg/DragonLab/ dragonlab
     cd dragonlab
     ```
 3. Try compiling the book files
