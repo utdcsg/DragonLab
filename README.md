@@ -7,7 +7,12 @@ Its curriculum is a selection of core concepts from the [Software Foundations](h
 
 ## Getting Started
 
-1. Install [Rocq](https://rocq-prover.org/). If you install [opam](https://opam.ocaml.org/doc/Install.html), this can be done with
+1. Clone this repo
+    ```bash
+    git clone https://github.com/utdcsg/DragonLab/ dragonlab
+    cd dragonlab
+    ```
+2. Install [Rocq](https://rocq-prover.org/). If you install [opam](https://opam.ocaml.org/doc/Install.html), this can be done with
    ```bash
    make setup-env
    source activate_switch
@@ -18,11 +23,6 @@ Its curriculum is a selection of core concepts from the [Software Foundations](h
    3. Is using either VSRocq or RocqIDE
    
    These are not strict requirements, and we will help you work around them if you have e.g. a Windows setup, or if you prefer to follow the [book's recommendation to run Rocq in a Docker environment](https://softwarefoundations.cis.upenn.edu/lf-current/Preface.html#lab8).
-2. Clone this repo
-    ```bash
-    git clone https://github.com/utdcsg/DragonLab/ dragonlab
-    cd dragonlab
-    ```
 3. Try compiling the book files
     ```bash
     make -j
